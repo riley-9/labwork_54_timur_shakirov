@@ -62,11 +62,11 @@ def product_delete_view(request, pk):
 def category_list_view(request):
     categories = Category.objects.all()
     context = {'categories': categories}
-    return render(request, 'index.html', context)
+    return render(request, 'category_list.html', context)
 
 def category_create(request):
     if request.method == 'GET':
-        return render(request, 'category_new')
+        return render(request, 'category_new.html')
     category = Category.objects.create(name=request.POST.get('name'), description=request.POST.get('description'))
     category.save()
     return redirect('category_list')
@@ -74,6 +74,17 @@ def category_create(request):
 def category_edit(request, pk):
     category = get_object_or_404(Category, pk=pk)
     if request.method == 'GET':
-        return render(request, 'category_form')\
+        return render(request, 'category_edit.html', {'category': category})
+    category.name = request.POST.get('name')
+    category.description = request.POST.get('description')
+    category.save()
+    return redirect('category_list')
+
+def category_delete(request, pk):
+    if request.method == 'POST':
+        category = get_object_or_404(Category, pk=pk)
+        category.delete()
+        return redirect('category_list')
+
 
 

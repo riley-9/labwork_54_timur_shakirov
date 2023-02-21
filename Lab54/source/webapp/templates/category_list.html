@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}categories{% endblock %}
+
+{% block content %}
+    <h1 class='title'>categories</h1>
+    {% for category in categories %}
+        <h2 title="{{ category.pk }}">{{ category.name }}</h2>
+        <small>{{ category.description }}</small>
+        <a class='link_amply' href="{% url "category_edit" category.pk %}">Edit</a><br><hr><br>
+        <form action="{% url "category_delete" category.pk %}" method="post">
+        {% csrf_token %}
+         <button  class='link_amply' type="submit" >Delete</button><br><hr><br>
+        </form>
+
+    {% endfor %}
+    <a href="{% url 'category_new' %}">Add NEW</a>
+{% endblock %}

@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd7cbb8-55e0-4dc9-a0e9-aa0cd0c177dc" name="Changes" comment="" />
+    <list default="true" id="6fd7cbb8-55e0-4dc9-a0e9-aa0cd0c177dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab54/source/source/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/source/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,23 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +65,7 @@
       <updated>1676981305224</updated>
       <workItem from="1676981306909" duration="787000" />
       <workItem from="1676982106560" duration="4067000" />
-      <workItem from="1676996205916" duration="4115000" />
+      <workItem from="1676996205916" duration="6872000" />
     </task>
     <servers />
   </component>
@@ -57,16 +74,5 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lab54/source/webapp/views.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
