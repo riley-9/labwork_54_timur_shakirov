@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+    <h1 class='detail_title'>{{ product.name }}</h1><br>
+    <p><b>Description: </b>{{ product.description }}</p><br>
+    <p>Category: <b>{{ product.category.name }}</b></p>
+     <p>Price: <b>{{ product.price }}</b></p>
+     <p class=''><a class='' href="{% url 'product_update' product.pk %}">Edit</a></p>
+     <p class=''><a class='' href="{% url 'product_delete' product.pk %}">Delete</a></p>
+     <p class='back_detail'><a class='link_back_detail' href="/">Return to main page</a></p>
+{% endblock %}

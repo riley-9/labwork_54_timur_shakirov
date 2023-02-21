@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %} Edit {{ product.name }} {% endblock %}
+
+{% block content %}
+    <h1>Update product's details</h1>
+    <form action="{% url 'product_update' product.pk %}" method="post">
+        {% csrf_token %}
+            <p><input class='form_detail' value="{{ name }}" type="text" placeholder="Input product's name" name="name" required>
+            </p>
+            <p><input class='form_detail' value="{{ description }}" type="text" placeholder="Input product's description"
+                      name="description"></p>
+
+            <p><input class='form_detail' value="{{ price }}" type="number" placeholder="Input product's price" name="price"></p>
+
+            <select class='form_detail' name="category" id="category_list">
+                <option value="" selected='selected'>--SELECT CATEGORY--
+                </option>
+                {% for category in categories %}
+                    <option value="{{ category.name }}">{{ category.name }}</option>
+                {% endfor %}
+            </select>
+     <button class='form_button'>Add</button>
+    </form>
+{% endblock %}

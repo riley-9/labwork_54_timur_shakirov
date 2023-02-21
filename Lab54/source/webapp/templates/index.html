@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Catalog{% endblock %}
+
+{% block content %}
+    <h1 class='title'>Products</h1>
+    {% for product in products %}
+        <h2 title="{{ product.pk }}">{{ product.name }}</h2>
+        <p> Category: <b>{{ product.category.name }}</b></p>
+        <small>{{ product.price }}</small>
+        <a class='link_amply' href="{% url "product_detail" product.pk %}">In detail...</a><br><hr><br>
+    {% endfor %}
+{% endblock %}

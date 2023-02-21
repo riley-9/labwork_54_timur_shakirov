@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Add new product
+{% endblock %}
+
+{% block content %}
+    <div class="form_container">
+        <h1 class='form_title'>Add new product</h1>
+        <form action="{% url 'product_create' %}" method="post">
+            {% csrf_token %}
+            <p><input class='form_detail' value="" type="text" placeholder="Input product's name" name="name" required>
+            </p>
+            <p><input class='form_detail' value="" type="text" placeholder="Input product's description"
+                      name="description"></p>
+
+            <p><input class='form_detail' value="" type="number" placeholder="Input product's price" name="price"></p>
+
+            <select class='form_detail' name="category" id="category_list">
+                <option value="" selected='selected'>--SELECT CATEGORY--
+                </option>
+                {% for category in categories %}
+                    <option value="{{ category.name }}">{{ category.name }}</option>
+                {% endfor %}
+            </select>
+            <button class='form_button'>Add</button>
+        </form>
+        <p class='back_main_form'><a class='link_back_main_form' href="/">Return to main page</a></p>
+    </div>
+{% endblock %}
