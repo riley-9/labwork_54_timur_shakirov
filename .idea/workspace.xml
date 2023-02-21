@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd7cbb8-55e0-4dc9-a0e9-aa0cd0c177dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/category_new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab54/source/source/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/source/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab54/source/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab54/source/webapp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6fd7cbb8-55e0-4dc9-a0e9-aa0cd0c177dc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +56,7 @@
       <updated>1676981305224</updated>
       <workItem from="1676981306909" duration="787000" />
       <workItem from="1676982106560" duration="4067000" />
-      <workItem from="1676996205916" duration="6872000" />
+      <workItem from="1676996205916" duration="7173000" />
     </task>
     <servers />
   </component>

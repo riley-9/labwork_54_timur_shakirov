@@ -1,0 +1,38 @@
+[
+{
+  "model": "webapp.category",
+  "pk": 5,
+  "fields": {
+    "name": "food",
+    "description": "food description"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 6,
+  "fields": {
+    "name": "Non-Food",
+    "description": "Non-food description"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "category": 5,
+    "name": "Хлеб",
+    "description": "описание хлеба",
+    "price": "8.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "category": 6,
+    "name": "Шампунь",
+    "description": "Жумыйсынба",
+    "price": "11.00"
+  }
+}
+]
